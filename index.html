@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <h1>TIFFANY&CO.</h1>
+        <div class="container">
+            <div class="HOME"><a href="index.html" class="home">HOME</a> </div>
+            <div class="PRODUCTS"><a href="products.html" class="product">PRODUCTS</a></div>
+            <div class="ABOUT"><a href="about.html" class="about">ABOUT</a> </div>
+            <div class="CONTACT"><a href="contact.html" class="contact">CONTACT</a></div>
+
+        </div>
+        <hr>
+        
+    <header>
+
+    <div class="background">
+
+        <section class="tiffany">
+            <br>
+            <h2>Elegant and Timeless Jewelry</h2>
+            <p>Discover our exquisite collection of jewelry and precious metals.</p>
+            <a href="products.html"><button> Shop Now</button></a>
+                <!--  <img src="tiffany.webp" alt=""> -->
+        </section>
+    </div>
+    </header>
+    <main>
+
+        <section>
+            <div class="gategory">
+                <h2> Shop By Category</h2>
+                <p>For over 187 years, Tiffany's legendary collections have enabled a constantly evolving world to
+                    express the timeless language of love.</p>
+            </div>
+
+            <div class="Products">
+                <a href="products.html#section1"><h3 class="pdt">Rings <img src="pics/rings.webp" alt=""></h3></a>
+                <a href="products.html#section2"><h3 class="pdt">Necklaces <img src="pics/necklace.webp" alt=""> </h3></a>
+                <a href="products.html#section3"><h3 class="pdt">Earrings <img src="pics/earrings.webp" alt=""></h3></a>
+            </div>
+        </section>
+    </main>
+
+    <div class="signup">
+    <h2>Be part of our family</h2>
+    <p class="detail">Sign up for the latest collections and special pieces</p>
+    <form id="myForm" onsubmit="return openPopup();" action="">
+    <input type="email" id="email" name="email" placeholder="Email" required> <br><br>
+    <button type="submit" > Sign up</button>
+    </form>
+    </div>
+
+    <div class="popup" id="popup">
+        <img src="pics/icons8-tick-480.png" alt="">
+        <h2>Thank you for subscribing!</h2>
+        <p>Please check your email box.</p>
+        <button type="button" onclick="closePopup()">OK</button>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Tiffany Jewelry. All rights reserved.</p>
+        <a href="https://www.facebook.com/Tiffany" target="_blank"><img class="icon" src="pics/icon/FB.png" alt=""></a>
+        <a href="https://www.instagram.com/tiffanyandco/" target="_blank"><img class="icon" src="pics/icon/IG.png" alt=""></a>
+        <a href="https://www.youtube.com/OfficialTiffanyAndCo" target="_blank"><img class="icon" src="pics/icon/YT.png" alt=""></a>
+    </footer>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
